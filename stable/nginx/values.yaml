@@ -6,10 +6,10 @@ replicaCount: 4
 
 
 image:
-  repository: nginxsdfff
+  repository: nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.s345ee"
+  tag: "1.16.0"
 
 imagePullSecrets: []
 nameOverride: ""
